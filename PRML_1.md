@@ -39,22 +39,22 @@ For most practical applications, the original input variables are typically prep
 
 正样本无标签时，更具作用进一步分类
 
-1. 寻找与目标样本相似的样本，聚类 clustering
-2. 根据输入确定数据的分布, 密度估计 density estimation
-3. 以可视化为目的降维, 可视化 visualization
+1. 寻找与目标样本相似的样本，聚类 _clustering_
+2. 根据输入确定数据的分布, 密度估计 _density estimation_
+3. 以可视化为目的降维, 可视化 _visualization_
 
 在这部分中,并没有无监督学习,半监督学习的概念
 
 ---
 
-强化学习,通过学习选择动作的策略获得最大的奖励reward
+强化学习,通过学习选择动作的策略获得最大的奖励 _reward_
 
-在多个阶段组成的游戏中,只能在整体结束后获得一个reward,其中每一步都做出了贡献,但无法确认其中的某一步是积极作用还是消极作用,这一问题时典型的信用分配问题 credit assignment
+在多个阶段组成的游戏中,只能在整体结束后获得一个reward,其中每一步都做出了贡献,但无法确认其中的某一步是积极作用还是消极作用,这一问题时典型的信用分配问题 _credit assignment_
 
-强化学习要平衡探索exploration与利用exploitation
+强化学习要平衡探索 _exploration_ 与利用 _exploitation_
 
 ---
 
 第一章对支撑各种模型的基础思想做出相对非正式的介绍,这些思想会在后续反复出现,构成一些实际应用中较为复杂的机器学习模型.
 
-同时第一张介绍了三个贯穿全书的工具,概率论,决策理论,信息论
+同时第一章介绍了三个贯穿全书的工具,概率论,决策理论,信息论
