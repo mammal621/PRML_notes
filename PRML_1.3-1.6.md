@@ -6,7 +6,7 @@
 
   在分类任务中直接使用这种简单的分类方法会遇到许多问题，其中最严重的问题在于，当输入数据的维度很高时，划分出的区域数量将会指数型增长，就需要大量的数据保证每一个区域不为空
 
-  ---
+---
 
   Thus, in spaces
 of high dimensionality, most of the volume of a sphere is concentrated in a thin shell
@@ -20,10 +20,10 @@ called the curse of dimensionality
 ---
 
  First, real
-data will often be confined to a region of the space having lower effective dimensionality, and in particular the directions over which important variations in the target
+data will often be confined to a region of the space having lower effective dimensionality, and in particular the directions over which important variations in the target
 variables occur may be so confined. Second, real data will typically exhibit some
 smoothness properties (at least locally) so that for the most part small changes in the
-input variables will produce small changes in the target variables, and so we can exploit local interpolation-like techniques to allow us to make predictions of the target
+input variables will produce small changes in the target variables, and so we can exploit local interpolation-like techniques to allow us to make predictions of the target
 variables for new values of the input variables.
 
 首先,真正的数据通常会被限制在一个具有较低有效维度的空间区域，特别是决定目标中重要变化的方向的变量通常受限。其次，真实数据通常会显示出一些
